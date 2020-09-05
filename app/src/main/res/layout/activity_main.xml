@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidmorefast.moden.appimagenrandom.
+    MainActivity">
+    <ImageView
+        android:id="@+id/imgRandom"
+        android:layout_width="333dp"
+        android:layout_height="287dp"
+        android:layout_above="@+id/btnNextImg"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="78dp" />
+    <Button
+        android:id="@+id/btnNextImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Random"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+</RelativeLayout>
